@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 import logging
 
 # Tokenni o'rnatamiz
-TOKEN = '6299868793:AAF4HaBzPZAFuwMznn6RJFnvfsrr8q-Ergw'
+TOKEN = 'YOUR_TOKEN'
 
 # Loggerni sozlash
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -79,7 +79,7 @@ def description(update: Update, context: CallbackContext) -> int:
     update.message.reply_text("Murojaatingiz qabul qilindi. Admin javobini kuting.")
     
     # Ma'lumotlarni adminlarga yuborish
-    admin_chat_id = '1421622919'    
+    admin_chat_id = 'YOUR_CHAT_ID'    
     user_chat_id = update.message.chat_id
     admin_message = f"Yangi murojaat:\n\n"
     admin_message += f"Ism: {user_data[user_chat_id]['name']}\n"
