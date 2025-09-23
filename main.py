@@ -7,7 +7,7 @@ from aiogram.filters import CommandStart
 
 API_TOKEN ="8176325880:AAEY3GpCwl2JIwWzyjJmwwS1VWd-wa0Tzbg"
 
-ADMIN_ID = 1421622919  # Replace with the actual admin ID
+ADMIN_ID = 763514415  # Replace with the actual admin ID
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
